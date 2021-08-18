@@ -10,7 +10,7 @@ module.exports = {
         dialect: 'mysql',
     },
     test: {
-        usename: 'root',
+        username: 'root',
         password: process.env.SEQUELIZE_PASSWORD,
         database: 'nodebird_test',
         host: '127.0.0.1',
